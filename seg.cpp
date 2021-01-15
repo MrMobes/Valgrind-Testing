@@ -5,4 +5,5 @@ int main()
   int *badptr = new int[10];
   cout << "everything worked" << endl;
   delete[] badptr;
+  cout << "deleted the array in memory" << endl;
 }
